@@ -3,7 +3,7 @@ Example: Basic MkDocs project for Read the Docs
 
 [![Documentation Status](https://readthedocs.org/projects/example-mkdocs-basic/badge/?version=latest)](https://example-mkdocs-basic.readthedocs.io/en/latest/?badge=latest)
 
-This example shows a basic MkDocs project with Read the Docs. You're encouraged to view it to get inspiration and copy & paste from the files in the source code. If you are using Read the Docs for the first time, have a look at the official [Read the Docs Tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html).
+This example shows the an integration of a basic MkDocs project with Read the Docs. You\'re encouraged to view it to get inspiration and copy & paste from the files in the source code. If you are using Read the Docs for the first time, have a look at the official [Read the Docs Tutorial](https://docs.readthedocs.io/en/stable/tutorial/index.html).
 
 📚 [docs/](https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/docs/)<br>
 A basic MkDocs project lives in `docs/`, it was generated using MkDocs defaults. All the `*.md` make up sections in the documentation.
@@ -11,7 +11,7 @@ A basic MkDocs project lives in `docs/`, it was generated using MkDocs defaults.
 ⚙️ [.readthedocs.yaml](https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/.readthedocs.yaml)<br>
 Read the Docs Build configuration is stored in `.readthedocs.yaml`.
 
-⚙️ [mkdocs.yml](https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/mkdocs.yml)<br>
+⚙️ [mkdocs.yml](https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/mkdocs.yaml)<br>
 A basic [MkDocs configuration](https://www.mkdocs.org/user-guide/configuration/) is stored here, including a few extensions for MkDocs and Markdown. Add your own configurations here, such as extensions and themes. Remember that many extensions and themes require additional Python packages to be installed.
 
 📍 [docs/requirements.txt](https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/docs/requirements.txt) and [docs/requirements.in](https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/docs/requirements.in)<br>
@@ -30,7 +30,7 @@ API docs are generated for this example Python module - they use *docstrings* di
 We use a basic versioning mechanism by adding a git tag for every release of the example project. All releases and their version numbers are visible on
 [example-mkdocs-basic.readthedocs.io](https://example-mkdocs-basic.readthedocs.io/en/latest/).
 
-📜 [README.md](https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/README.md)<br>
+📜 [README.rst](https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/README.rst)<br>
 Contents of this `README.md` are visible on Github and included on [the documentation index page](https://example-mkdocs-basic.readthedocs.io/en/latest/) (Don\'t Repeat Yourself).
 
 ⁉️ Questions / comments<br>
@@ -61,8 +61,7 @@ If you are copying this code in order to get started with your documentation, yo
 
 1. place your `docs/` folder alongside your Python project. If you are starting a new project, you can adapt the `pyproject.toml` example configuration.
 1. use your existing project repository or create a new repository on Github, GitLab, Bitbucket or another host supported by Read the Docs.
-1. copy `mkdocs.yml`, `.readthedocs.yaml` and the `docs/` folder into your project.
-1. customize all the files, replacing example contents.
+1. copy in `mkdocs.yaml`, `.readthedocs.yml` and the `docs/` folder into your project. Customize all the files, replacing example contents.
 1. Rebuild the documenation locally to see that it works.
 1. *Finally*, register your project on Read the Docs, see [Importing Your Documentation](https://docs.readthedocs.io/en/stable/intro/import-guide.html).
 
